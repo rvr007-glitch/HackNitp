@@ -11,7 +11,9 @@ const authRoute = require("./routes/auth");
 const categoryRoute = require("./routes/categories");
 const userRoute = require("./routes/users");
 const postRoute = require("./routes/posts");
-const videoRoute=require("./routes/video")
+const videoRoute=require("./routes/video");
+const audioRoute=require("./routes/podcast");
+
 dotenv.config();
 app.use(express.json());
 app.use(cors())
@@ -46,6 +48,7 @@ app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 app.use("/api/video", videoRoute);
+app.use("/api/audio", audioRoute);
 
 app.listen("5000", () => {
   console.log("Backend is running.");
