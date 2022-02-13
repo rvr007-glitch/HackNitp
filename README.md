@@ -6,8 +6,8 @@ Video Presentation : https://drive.google.com/file/d/1tBqzobiCB533-BiXilhNenVzA7
 Presentation Link : https://docs.google.com/presentation/d/1C8yO5t_eGtISKwyL_oFPkRqGUNSOSjGV/edit?usp=sharing&ouid=100232886568567910009&rtpof=true&sd=true
 
 
-Packages json
-"dependencies": {
+#Packages json
+* **"dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
@@ -17,11 +17,11 @@ Packages json
     "nodemon": "^2.0.15",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
-  "scripts": {
+ * ** "devDependencies": {},
+* **  "scripts": {
     "start": "nodemon index.js"
   },
-"dependencies": {
+* **"dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@fortawesome/fontawesome-svg-core": "^1.3.0",
